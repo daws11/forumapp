@@ -17,6 +17,8 @@ class _RegisterPageState extends State<RegisterPage> {
   final TextEditingController _passwordController = TextEditingController();
   final TextEditingController _nameController = TextEditingController();
   final TextEditingController _usernameController = TextEditingController();
+  final TextEditingController _emergencyNumberController =
+      TextEditingController();
   final AuthenticationController _authenticationController =
       Get.put(AuthenticationController());
   @override
@@ -72,6 +74,12 @@ class _RegisterPageState extends State<RegisterPage> {
               const SizedBox(
                 height: 30,
               ),
+              const SizedBox(height: 30),
+              InputWidget(
+                hintText: 'Emergency Number',
+                obscureText: false,
+                controller: _emergencyNumberController,
+              ),
               ElevatedButton(
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.black,
@@ -87,6 +95,7 @@ class _RegisterPageState extends State<RegisterPage> {
                     username: _usernameController.text.trim(),
                     email: _emailController.text.trim(),
                     password: _passwordController.text.trim(),
+                    emergencyNumber: _emergencyNumberController.text.trim(),
                   );
                 },
                 child: Obx(() {

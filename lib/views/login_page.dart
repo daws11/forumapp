@@ -31,7 +31,7 @@ class _LoginPageState extends State<LoginPage> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               Text(
-                'Login Page',
+                'Protectress',
                 style: GoogleFonts.poppins(
                   fontSize: size * 0.080,
                 ),

@@ -20,6 +20,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Forum App',
       home: token == null ? const LoginPage() : const HomePage(),
+      getPages: [
+        GetPage(name: '/login', page: () => const LoginPage()),
+        GetPage(name: '/home', page: () => const HomePage()),
+      ],
     );
   }
 }

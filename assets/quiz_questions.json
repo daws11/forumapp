@@ -1,0 +1,52 @@
+[
+    {
+        "question": "What is the legal definition of sexual violence?",
+        "choices": ["Unwanted sexual comments", "Physical sexual acts without consent", "Both physical and non-physical acts without consent", "Sharing intimate photos"],
+        "answer": "Both physical and non-physical acts without consent"
+    },
+    {
+        "question": "Which of the following actions constitutes a form of sexual harassment?",
+        "choices": ["Asking for a date", "Sending flowers", "Making sexual jokes", "Complimenting someone’s clothing"],
+        "answer": "Making sexual jokes"
+    },
+    {
+        "question": "What is consent in the context of sexual activities?",
+        "choices": ["Permission given under pressure", "Agreement given while intoxicated", "A clear and voluntary agreement", "Assumed in a relationship"],
+        "answer": "A clear and voluntary agreement"
+    },
+    {
+        "question": "Which group is most at risk for sexual violence?",
+        "choices": ["Senior citizens", "Adult men", "Young women", "Business executives"],
+        "answer": "Young women"
+    },
+    {
+        "question": "What can be a consequence of sexual violence?",
+        "choices": ["Increased social standing", "Financial gain", "Psychological trauma", "Career advancement"],
+        "answer": "Psychological trauma"
+    },
+    {
+        "question": "How can bystanders help prevent sexual violence?",
+        "choices": ["By ignoring the signs", "By supporting aggressive behavior", "By intervening safely when witnessing an assault", "By staying silent"],
+        "answer": "By intervening safely when witnessing an assault"
+    },
+    {
+        "question": "What is a common myth about sexual violence?",
+        "choices": ["It can only occur outside at night", "It is always committed by strangers", "Victims provoke their attackers", "All of the above"],
+        "answer": "All of the above"
+    },
+    {
+        "question": "Which of the following is an example of victim-blaming in sexual violence?",
+        "choices": ["Asking what the victim was wearing", "Reporting the incident to authorities", "Offering support to the victim", "Educating the public about consent"],
+        "answer": "Asking what the victim was wearing"
+    },
+    {
+        "question": "What is one effective way to support a survivor of sexual violence?",
+        "choices": ["Disbelieving their story", "Telling them to forget about the incident", "Listening to and validating their feelings", "Advising them to take revenge"],
+        "answer": "Listening to and validating their feelings"
+    },
+    {
+        "question": "Which policy is important for workplaces to implement to prevent sexual harassment?",
+        "choices": ["Dress code policy", "Zero tolerance policy towards sexual harassment", "Flexible work hours", "Performance appraisal policy"],
+        "answer": "Zero tolerance policy towards sexual harassment"
+    }
+]
